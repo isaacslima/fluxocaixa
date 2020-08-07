@@ -10,6 +10,8 @@ import router from './router';
 
 Vue.config.productionTip = false
 
+let app
+
 firebase.auth().onAuthStateChanged(function () {
   if (!app) {
     app = new Vue({

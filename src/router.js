@@ -4,7 +4,7 @@ import Meta from 'vue-meta';
 import firebase from 'firebase';
 import NProgress from 'nprogress';
 
-import Home from './views/Home.vue';
+import Home from './components/Home.vue';
 import Outgoings from './components/Outgoings.vue';
 import Invoices from './components/Invoices.vue';
 import Reports from './components/Reports.vue';
