@@ -38,21 +38,15 @@ Fluxo de caixa
     </v-app-bar>
 
     <v-main>
-      <Outgoings/>
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Outgoings from './components/Outgoings';
 
 export default {
   name: 'App',
-
-  components: {
-    Outgoings,
-  },
-
   data: () => ({
     //
   }),
