@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "firebase": "^7.17.2",
+    "nprogress": "^0.2.0",
+    "v-money": "^0.8.1",
     "vue": "^2.6.11",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.4.1",
     "vuetify": "^2.2.11"
   },
   "devDependencies": {
